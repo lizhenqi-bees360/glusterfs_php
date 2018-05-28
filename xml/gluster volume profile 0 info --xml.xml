@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cliOutput>
+  <opRet>-1</opRet>
+  <opErrno>0</opErrno>
+  <opErrstr>Another transaction is in progress for 0. Please try again after sometime.</opErrstr>
+  <volProfile>
+    <volname>0</volname>
+    <profileOp>3</profileOp>
+    <brickCount>0</brickCount>
+  </volProfile>
+</cliOutput>

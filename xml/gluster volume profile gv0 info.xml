@@ -1,0 +1,67 @@
+Brick: 192.168.1.155:/data/brick1/gv0
+-------------------------------------
+Cumulative Stats:
+   Block Size:               8192b+               16384b+               32768b+ 
+ No. of Reads:                    0                     0                     0 
+No. of Writes:                    2                     1                     6 
+ 
+   Block Size:              65536b+              131072b+ 
+ No. of Reads:                    0                     0 
+No. of Writes:                    9                   703 
+ %-latency   Avg-latency   Min-Latency   Max-Latency   No. of calls         Fop
+ ---------   -----------   -----------   -----------   ------------        ----
+      0.00       0.00 us       0.00 us       0.00 us              2      FORGET
+      0.00       0.00 us       0.00 us       0.00 us             20     RELEASE
+      0.00       0.00 us       0.00 us       0.00 us            255  RELEASEDIR
+      0.08     226.50 us     199.00 us     254.00 us              2      UNLINK
+      0.09     256.00 us     201.00 us     311.00 us              2    SETXATTR
+      0.11     650.00 us     650.00 us     650.00 us              1       MKDIR
+      0.12     180.50 us     158.00 us     194.00 us              4     SETATTR
+      0.13      37.81 us      16.00 us     113.00 us             21       FLUSH
+      0.29      48.53 us      14.00 us     263.00 us             36    FINODELK
+      0.31       7.25 us       1.00 us     171.00 us            255     OPENDIR
+      0.32     107.33 us      55.00 us     276.00 us             18     INODELK
+      0.34      43.35 us      13.00 us     106.00 us             46     ENTRYLK
+      0.70     208.05 us     102.00 us     396.00 us             20      CREATE
+      3.76     145.21 us      32.00 us    1041.00 us            154    FXATTROP
+      6.97     112.30 us      13.00 us     498.00 us            369      LOOKUP
+      7.16     124.06 us       9.00 us   11254.00 us            343    GETXATTR
+     10.62     118.31 us      28.00 us    3839.00 us            534      STATFS
+     25.52     210.53 us      54.00 us    2348.00 us            721       WRITE
+     43.48     519.23 us     137.00 us    4643.00 us            498     READDIR
+ 
+    Duration: 35483 seconds
+   Data Read: 0 bytes
+Data Written: 93366754 bytes
+ 
+Interval 4 Stats:
+ %-latency   Avg-latency   Min-Latency   Max-Latency   No. of calls         Fop
+ ---------   -----------   -----------   -----------   ------------        ----
+    100.00      46.14 us      28.00 us     104.00 us              7      STATFS
+ 
+    Duration: 69 seconds
+   Data Read: 0 bytes
+Data Written: 0 bytes
+ 
+Brick: 192.168.1.132:/data/brick1/gv0
+-------------------------------------
+Cumulative Stats:
+ %-latency   Avg-latency   Min-Latency   Max-Latency   No. of calls         Fop
+ ---------   -----------   -----------   -----------   ------------        ----
+      1.11     137.50 us     111.00 us     164.00 us              2    GETXATTR
+      2.05     168.67 us     124.00 us     223.00 us              3      LOOKUP
+     96.83     125.76 us      92.00 us     409.00 us            190      STATFS
+ 
+    Duration: 10751 seconds
+   Data Read: 0 bytes
+Data Written: 0 bytes
+ 
+Interval 2 Stats:
+ %-latency   Avg-latency   Min-Latency   Max-Latency   No. of calls         Fop
+ ---------   -----------   -----------   -----------   ------------        ----
+    100.00     124.43 us     115.00 us     153.00 us              7      STATFS
+ 
+    Duration: 69 seconds
+   Data Read: 0 bytes
+Data Written: 0 bytes
+ 

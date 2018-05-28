@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cliOutput>
+  <opRet>-1</opRet>
+  <opErrno>0</opErrno>
+  <opErrstr>Volume 0 does not exist</opErrstr>
+  <cliOp>volGetopts</cliOp>
+  <output>volume get option: failed: Volume 0 does not exist</output>
+</cliOutput>
